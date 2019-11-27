@@ -1,3 +1,5 @@
+package com.test.assignment_26nov;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;;
 
@@ -28,8 +30,8 @@ public class Fibonacci {
 		System.out.println("Enter the value of n");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		n = Integer.parseInt(br.readLine());
-		
+		n = Integer.parseInt(br.readLine());//chances of exception throw
+		 
 		printFibonacciSeries(n);//invoking static method
 	}
 
