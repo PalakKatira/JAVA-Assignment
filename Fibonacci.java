@@ -1,12 +1,13 @@
-package com.test.assignment_26nov;
+package com.test.assignment_26nov;//creating package
 
-import java.io.BufferedReader;
+import java.io.BufferedReader;//io class for taking input from user
 import java.io.InputStreamReader;;
 
 public class Fibonacci {
 	static int n1, n2, n3, n4, n5;
 
 	public static void printFibonacciSeries(int p) {
+		/**initialising the first 4 variables*/
 		n1 = 0;
 		n2 = 1;
 		n3 = 1;
