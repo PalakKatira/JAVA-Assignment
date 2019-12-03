@@ -1,6 +1,6 @@
-package com.test.assignment_25nov;
+package com.test.assignment_25nov;//package
 
-import java.util.Scanner;
+import java.util.Scanner;//util class to use Scanner class
 
 public class PrimeOrNot {
 	int n;
