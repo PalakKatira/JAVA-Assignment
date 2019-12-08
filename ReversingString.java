@@ -1,26 +1,14 @@
-package com.assignment_28;
-
-import java.util.Scanner;
+package com.palak.reverse;
 
 public class ReversingString {
+	public static void main(String[] args) {
 
-	public static void main(String args[]) {
-		
-		ReversingString rs = new ReversingString();
-		rs.reversingString();
-
-	}
-
-	public void reversingString() {
-		System.out.println("Enter the string");
-
-		Scanner sc = new Scanner(System.in);
-		String str = sc.nextLine();
-		String reverse = "";
-		
-		for (int i = str.length() - 1; i >= 0; i--) {
-			reverse = reverse + str.charAt(i);
+		String str = "I love My Country";
+		String[] s=str.split(" ");
+		int n = s.length;
+		for (int i = n - 1; i >= 0; i--) {
+			System.out.print(" "+s[i]);
+			
 		}
-		System.out.println("The reverse of the input string is: "+reverse);
 	}
 }
